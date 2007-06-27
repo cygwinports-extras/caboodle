@@ -1,0 +1,68 @@
+caboodle
+------------------------------------------
+A GTK+ clone of Planarity. The objective of the game is to arrange the 
+balls on the screen so that no lines cross.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.13-1
+  glib2-2.12.12-2
+  gtk2-x11-2.10.13-1
+  libcairo2-1.4.8-1
+  libglade2-2.6.1-1
+  pango-1.16.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  lablgtk2-20060908-1
+  ocaml-3.09.3-1
+  ocaml-cairo-20061109-1
+
+Canonical website:
+  http://koti.welho.com/jpakaste/caboodle/
+
+Canonical download:
+  http://www.juripakaste.fi/store/dl/caboodle/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack caboodle-0.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./caboodle-0.5-X.cygport all
+
+This will create:
+  /usr/src/caboodle-0.5-X-src.tar.bz2
+  /usr/src/caboodle-0.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/caboodle.sh
+  /usr/bin/caboodle.exe
+  /usr/share/applications/caboodle.desktop
+  /usr/share/caboodle/caboodle.glade
+  /usr/share/caboodle/caboodle.svg
+  /usr/share/doc/Cygwin/caboodle-0.5.README
+  /usr/share/doc/caboodle-0.5/COPYING
+  /usr/share/doc/caboodle-0.5/NEWS
+  /usr/share/doc/caboodle-0.5/README
+
+------------------
+
+Port Notes:
+
+----- version 0.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

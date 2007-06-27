@@ -1,0 +1,5 @@
+category: Gnome Games
+requires: cygwin glib2 gtk2-x11 libcairo2 libglade2 pango
+sdesc: "GTK+ Planarity game"
+ldesc: "A GTK+ clone of Planarity. The objective of the game is to 
+arrange the balls on the screen so that no lines cross."
